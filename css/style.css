@@ -2,7 +2,7 @@
    ======================= */
    .container {
       width: 80%;
-      max-width: 900px;
+      max-width: 980px;
       margin: auto;
    }
 /* ======================= */
@@ -47,14 +47,18 @@ nav>ul>li {
       top: 130%;
       background-color: white;
       box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
-      line-height: 30px;
+      line-height: 2.5rem;
    }
 
 .beta::after {
+   display: inline-block;
    content: "beta";
    color:  #eb008e;
    padding-left: 3px;
    vertical-align: super;
+   /* position: relative;
+   top: -0.8rem; */
+   font-size: 80%;
 }
 
 .show {
@@ -67,12 +71,6 @@ nav>ul>li {
 .show>a,  .download-btn {
    opacity: 1;
 }
-
-
-
-
-
-
 
 .lang {
    padding-left: 20px;
@@ -91,10 +89,20 @@ nav>ul>li {
 }
 
 .download-btn {
-   padding: 10px;
+   padding: 10px 15px;
    background-color: #eb008e;
    color: white;
    border-radius: 30px;
 }
 /* ======================= */
 
+
+
+#memo {
+   font-size: 2rem;
+   text-align: center;
+   padding: 30px 20px;
+   font-weight: bolder;
+   color: white;
+   background: lightcoral
+}
