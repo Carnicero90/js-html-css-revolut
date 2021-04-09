@@ -44,7 +44,7 @@ nav>ul>li {
       position: absolute;
       padding: 15px;
       left: -15%;
-      top: 130%;
+      top: 100%;
       background-color: white;
       box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
       line-height: 2.5rem;
