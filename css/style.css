@@ -1,0 +1,100 @@
+/* COMMON
+   ======================= */
+   .container {
+      width: 80%;
+      max-width: 900px;
+      margin: auto;
+   }
+/* ======================= */
+
+/* MACRO LAYOUT
+   ======================= */
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+nav {
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+/* ======================= */
+
+/* MICRO LAYOUT
+   ======================= */
+.logo img{
+   height: 1.8rem;
+   width: auto;
+}
+
+nav a{
+   opacity: 0.5;
+}
+
+nav>ul>li {
+   padding-left: 20px;
+   position: relative;
+}
+.left-menu {
+   flex-grow: 1;
+}
+   .dropdown {
+      z-index: 1;
+      display: none;
+      width: max-content;
+      position: absolute;
+      padding: 15px;
+      left: -15%;
+      top: 130%;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+      line-height: 30px;
+   }
+
+.beta::after {
+   content: "beta";
+   color:  #eb008e;
+   padding-left: 3px;
+   vertical-align: super;
+}
+
+.show {
+   display: block;
+}
+
+.show .dropdown  {
+   display: block;
+}
+.show>a,  .download-btn {
+   opacity: 1;
+}
+
+
+
+
+
+
+
+.lang {
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.lang>a::after {
+   font-weight: 900;
+   font-family: "Font Awesome 5 Free";
+   content: "\f077";
+   vertical-align: baseline;
+   font-size: 0.5rem;
+   padding-left: 3px;
+}
+.lang>a:hover:after {
+   content: "\f078";   
+}
+
+.download-btn {
+   padding: 10px;
+   background-color: #eb008e;
+   color: white;
+   border-radius: 30px;
+}
+/* ======================= */
+
